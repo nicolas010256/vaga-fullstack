@@ -1,0 +1,67 @@
+.bg-{
+  &primary{
+    background-color: $primary-color !important;
+  }
+
+  &Grass{
+    background-color: $type-grass-color !important;
+  }
+  &Poison{
+    background-color: $type-poison-color !important;
+  }
+  &Fire{
+    background-color: $type-fire-color !important;
+  }
+  &Flying{
+    background-image: linear-gradient($type-flying-color-1 50%, $type-flying-color-2 50%) !important;
+  }
+  &Water{
+    background-color: $type-water-color !important;
+  }
+  &Bug{
+    background-color: $type-bug-color !important;
+  }
+  &Normal{
+    background-color: $type-normal-color !important;
+  }
+  &Electric{
+    background-color: $type-electric-color !important;
+  }
+  &Ground{
+    background-image: linear-gradient($type-ground-color-1 50%, $type-ground-color-2 50%) !important;
+  }
+  &Fairy{
+    background-color: $type-fairy-color !important;
+  }
+
+  &Ghost{
+    background-color: $type-ghost-color !important;
+  }
+  &Psychic{
+    background-color: $type-psychic-color !important;
+  }
+  &Rock{
+    background-color: $type-rock-color !important;
+  }
+  &Dark{
+    background-color: $type-dark-color !important;
+  }
+  &Dragon{
+    background-image: linear-gradient($type-dragon-color-1 50%, $type-dragon-color-2 50%) !important;
+  }
+  &Ice{
+    background-color: $type-ice-color !important;
+  }
+  &Steel{
+    background-color: $type-steel-color !important;
+  }
+  &Fighting{
+    background-color: $type-fighting-color !important;
+  }
+}
+
+.fill-{
+  &width{
+    width: 100%;
+  }
+}

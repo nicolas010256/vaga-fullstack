@@ -1,0 +1,28 @@
+.center-item{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.bottom-item{
+  display: inline-block;
+  position: relative;
+  bottom: 0%;
+}
+
+.decoration--none{
+  text-decoration: none !important;
+}
+
+.container {
+  padding: 50px;
+    background: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px 1px darkgray;
+}
+
+.v-content__wrap {
+  background-color: whitesmoke;
+}

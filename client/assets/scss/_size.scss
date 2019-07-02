@@ -1,0 +1,13 @@
+.img--{
+  &size-{
+    &1{
+      max-width: 96px !important;
+      max-height: 96px !important;
+    }
+
+    &2{
+      width: 28px !important;
+      height: 28px !important;
+    }
+  }
+}
